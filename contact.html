@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title>Semester Long Project - Party Saver</title>
+
+      <meta name="description" content="Website for Party Saver">
+
+      <link rel="stylesheet" href="css/main.css">
+
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700,800" rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+
+        <img src="images/partysaverlogo.svg" alt="Party Saver Logo" title="Party Saver Logo" width="200" height="" />
+
+        <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="specials.html">Specials</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+
+        </nav>
+
+    </header>
+
+    <main class="contact">
+
+        <h1>Contact Us</h1>
+
+        <article id="contact_form">
+
+            <p>Thank you for visiting my site. I am excited to hear from you. All inquiries will be responded to within 24 hours. Please fill out the form below or email me at nicholasuptgrow@gmail.com. Thank you again.</p>
+
+            &nbsp;
+            &nbsp;
+
+            <form id="contactform" name="contact" method="post" action="form.php" onsubmit="return validateForm(this)">
+
+              <fieldset id="basic">
+
+                <p>
+                  <label class="label" for="name">Name:</label><br/>
+                  <input name="req_name" type="text" id="name" placeholder="First and last name" size="30" />
+
+                  <br/>
+                  <br/>
+
+                  <label class="label" for="email_address">Email:</label><br/>
+                  <input name="req_email_address" type="email" id="email_address" size="30" required/>
+
+                  <br/>
+                  <br/>
+
+                  <label class="label" for="phone_number">Phone:</label><br/>
+                  <input name="phone_number" type="tel" id="phone_number" size="30" required/><br/>
+
+                </p>
+
+                <p>
+                  <label class="label" for="contactmethod">Preferred method of contact:</label>
+                  <select name="contactmethod" id="contactmethod">
+                    <option value="phone">Phone</option>
+                    <option value="email">Email</option>
+                  </select>
+                </p>
+
+                <p>
+                  <label class="label" for="comments">Enter inquiry below.</label><br/>
+                  <textarea name="comments" id="comments" rows="10" cols="50"></textarea>
+                </p>
+
+              </fieldset>
+
+               &nbsp;
+
+               <p>
+                 <input type="submit" name="submit" value="Submit"/>
+                 <input type="reset" name="reset" value="Reset"/>
+               </p>
+
+            </form>
+
+        </article>
+
+    </main>
+
+    <aside class="sidebar">
+
+      <h2>Party Saver</h2>
+
+      <p>10117 S Mandel</p>
+      <p>Plainfield, Illinois</p>
+      <p>60585</p><br/>
+
+      <p class="bold">Phone:</p>
+      <p>630.922.6100</p><br/>
+
+      <p class="bold">Email:</p>
+      <p>partysaver@aol.com</p><br/>
+
+      <a href="https://www.facebook.com/funtimeparties" target="_blank"><img src="images/facebook.svg" alt="Facebook" title="Facebook" width="30" height="30" class="alignLeft" /></a>
+
+    </aside>
+
+    <footer>
+
+        <div class="footer">
+
+            <img src="images/partysaverlogo.svg" alt="Party Saver Logo" title="Party Saver Logo" width="100" />
+            <a href="https://www.facebook.com/funtimeparties/?ref=hl" target="_blank"><img src="images/facebook.svg" alt="Facebook" title="Facebook" width="30" height="30" class="alignLeft" /></a>
+            <p class=>&copy; Copyright 2017. PARTY SAVER. All Rights Reserved</p>
+
+        </div>
+
+    </footer>
+
+      <script src="js/main.js"></script>
+  </body>
+
+</html>

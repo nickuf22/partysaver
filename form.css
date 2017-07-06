@@ -1,0 +1,82 @@
+form{
+    padding: 0;
+    
+}
+fieldset {
+	border: 2px solid #b8b8b8;
+	border-radius: 20px;
+	padding: 25px;
+}
+
+legend {
+	padding: 0 5px;
+	color: #d7aed1;
+	font-weight: bold;
+}
+
+.inline, input[type="checkbox"] {
+	display: inline;
+}
+
+.label {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+input, textarea, select {
+	display: block;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+	border: 1px solid #b8b8b8;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	padding-left: 10px;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+	padding-left: 10px;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+	padding-left: 10px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	padding-left: 10px;
+}
+
+#no {
+	margin-left: 10px;
+}
+
+textarea {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 100px;
+}
+
+input[type="submit"], input[type="reset"] {
+	background-color: #a9dfee;
+	color: #fff;
+	font-size: 1.1rem;
+	padding: 10px;
+	width: 100px;
+	display: inline;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+	background-color: #a9dfee;
+	color: #b8b8b8;
+}
+
+.formrequiredincomplete {
+	background: #b8b8b8;
+	color: #000000;
+	border: #a9dfee 2px solid;
+}
