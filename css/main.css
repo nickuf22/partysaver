@@ -1,3 +1,5 @@
+/* General Settings */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -73,6 +75,8 @@ header img {
     width: 15%;
 }
 
+/* Nav Settings */
+
 nav {
     background-color: black;
     text-align: center;
@@ -126,6 +130,8 @@ li a {
 li a:hover {
     background-color: #d7aed1;
 }
+
+/* End of Nav Settings */
 
 main {
     padding: 5%;
@@ -236,6 +242,8 @@ footer img {
     max-width: 100px;
 }
 
+/* Mobile Settings */
+
 @media (min-width: 320px) {
     .flex-container {
         display: flex;
@@ -262,6 +270,8 @@ footer img {
         padding: 5%;
 		}
 }
+
+/* Desktop/Tablet Settings */
 
 @media (min-width: 800px) {
     .flex-container {
@@ -300,7 +310,7 @@ footer img {
     div h2 {
         padding-bottom: 5%;
     }
-
+/* Nav Settings */
     nav {
         width: 70%;
         float: right;
@@ -410,6 +420,8 @@ footer img {
         -moz-animation: fill 1s forwards;
         opacity: 1;
     }
+
+/* End of Nav Settings */
 
     @keyframes fill {
         0%   { opacity: 0; }
